@@ -8,7 +8,7 @@ logger = logging.getLogger("reasoning")
 class ReasoningLayer:
     def __init__(self):
         # Dynamically pulls the key you set in your terminal window
-        self.api_key = os.getenv("GEMINI_API_KEY", "YOUR_PLACEHOLDER_API_KEY_HERE")
+        self.api_key = os.getenv("GEMINI_API_KEY")
         self.model_name = "gemini-2.0-flash"
         self.api_url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent"
 
