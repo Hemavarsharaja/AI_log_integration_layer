@@ -1,0 +1,12 @@
+{
+  "name": "log-generator",
+  "version": "1.0.0",
+  "description": "Log generator for AI Integration Layer testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
